@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Bear Lake Senior Center</title>
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="Bear Lake, Montpelier, Idaho, senior center, community">
+    <meta name="author" content="Katherine Yeoman Lee">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Dosis:wght@300&family=Montserrat&family=Open+Sans&family=PT+Serif:ital,wght@1,700&family=Playfair+Display:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/originallogo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/043f8d10f8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <section class="navigation w3-metro-light-blue w3-container">
+      <button onclick="goToTop()" id="back-to-top" title="Go to top"><i class="fa fa-toggle-up"></i></button>
+      <nav class="nav-container">
+        <div class="logo w3-padding-large"> 
+         <img src="images/originallogo2.png" style="width:100%; max-width:500px;">
+        </div>
+        </div>
+        <div class="mobile-button">
+          <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+        </div>
+        <div class="links">
+          <a href="#about" >ABOUT</a>-
+          <a href="#services" >SERVICES</a>-
+          <a href="#gallery" >GALLERY</a>-
+          <a href="#contact" >CONTACT</a>            
+        </div>
+        <div id="mobile-sidenav" class="mobile-links w3-sand">
+          <a href="javascript:void(0)" class="closebtn w3-round" onclick="toggleMobileNavigation()">&times;</a>
+          <a href="#about" onclick="toggleMobileNavigation()">ABOUT</a>
+          <a href="#services" onclick="toggleMobileNavigation()">SERVICES</a>
+          <a href="#gallery" onclick="toggleMobileNavigation()">GALLERY</a>
+          <a href="#contact" onclick="toggleMobileNavigation()">CONTACT</a>
+        </div>
+      </nav>
+    </section>
+    
+    <section class="header w3-padding-large w3-container">
+      <h1 style="display: inline; text-align: center; text-decoration: underline;"><span class="w3-text-white title" style="text-shadow:4px 4px 0 black;">BEAR LAKE<br>SENIOR CENTER</span></h1>
+        <p style="display: inline; text-align: center;"><span class="w3-text-white title" style="text-shadow:4px 4px 0 black;"><em>&#9788; Everyone Welcome &#9788;</em></span></p>
+        <a href="images/februarynewsletter2023.pdf" target="_blank" class="w3-padding-large w3-round">View Calendar/Newsletter</a>
+      <div>
+      <address class="w3-text-white" style="text-align: center;">115 South 4th Street, Montpelier, ID 83254 <br>
+        208-847-3141<br><br>
+        Open: Wed-Fri 9am-2pm<br>
+        Lunch: Wed-Fri 11:30am-1:30pm
+      </address>
+      </div>
+    </section>
+
+    <section class="about w3-padding-large w3-container" id="about">
+      <div class="content container w3-round-large">
+        <h2 style="text-align: center;">- About Us -</h2>    
+          <p>The Bear Lake Senior Center is a 501(c)(3) nonprofit charitable organization. Everyone, of any age, is welcome at the Center.
+          We are open to any suggestions on how to improve our Center. Board meetings are held the first Tuesday of every month. 
+          Stop by the front office for board member contact information. The Board members, and all of our volunteers, put their hearts and souls into the Center.
+          <em><strong>A place for the community to come together.</strong></em>
+        </p>
+        <h3 style="text-align: center;">- Mission Statement -</h3>
+          <p>To provide a nutritious noon meal and home-delivered meals to seniors who are unable, either physically or financially, to provide for themselves.
+          To enrich the daily lives of seniors by providing a creative environment that stimulates them physically, mentally, socially, and nutritionally. 
+          To provide seniors the opportunity to live the best life possible by including a wide variety of programs, activities, and classes, as well as special events.
+          <em><strong>Changing lives one meal at a time.</strong></em></p>
+      </div>
+
+      <div class="services content container w3-margin-top w3-round-large" id="services">
+          <h2 style="text-align: center;">- Services -</h2><br>
+          <p style="text-align: center;"><a href="images/februarycalendar2023.pdf" target="_blank" class="activitycalendar w3-padding-large w3-round">View Menu/Activity Calendar</a></p>
+        <div class="l-cards">
+          <div class="l-card">
+            <div class="circular-portrait">
+              <img src="images/meal.jpg" alt="lunch">
+            </div>
+            <br>
+            <h3>- Lunch -</h3>
+              <p style="text-align: left;"><strong><span style="text-decoration: underline;">PRICES:</strong></span><br>Under Age 60: $7.00 <br>
+                      Age 60 &amp; over: $6.00 <strong>(donation)</strong> <br>
+                      Hamburgers always available: $4.00 <br><br>
+              <strong><span style="text-decoration: underline;">DINING ROOM:</strong></span><br>Wed-Fri 11:30am-1:30pm<br><strong>Carry out available</strong><br><br>
+                <strong><span style="text-decoration: underline;">DELIVERY:</strong></span><br>Wed &amp; Fri call before 10am<br><br>
+                <strong><span style="text-decoration: underline;">OLDIES GOODIES BAKERY:</strong></span><br>Yummy "homemade" treats available for purchase.<br></p>
+          </div>
+          <div class="l-card">
+            <div class="circular-portrait">
+              <img src="images/yoga.jpg" alt="yoga lady">
+            </div>
+            <br>
+            <h3>- Activities -</h3><br>
+              <ul style="text-align: left; list-style-type: square;"><strong>
+                <li>BINGO</li>
+                <li>BOOK CLUB</li>
+                <li>FIT 'N' FALL PROOF</li>
+                <li>LIVE ENTERTAINMENT</li>
+                <li>TABLE TENNIS</li>
+                <li>YOGA</li><br></strong>
+                <li><strong>ADOPT-A-SENIOR:</strong> Donations welcome!</li>
+                <li><strong>BOUTIQUE:</strong> Hand-sewn and store-bought items available for purchase.</li>
+                <li><strong>PUZZLES &amp; BOOKS:</strong> Free for personal use.</li>
+                <li><strong>24/7 FOOD &amp; COAT PANTRY:</strong> Free to the public. Donations welcome!</li>
+              </ul><br>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery w3-container w3-panel" id="gallery" style="padding: 50px;">
+        <h2 style="text-align: center;">- Photo Gallery &amp; Announcements -</h2>
+      <div class="slideshow-container">
+
+        <div class="mySlides">
+          <img src="images/seniorcenter.jpeg" alt="Senior Center" style="width:100%;max-width:600px"><br><br><br>
+          <p class="author"><strong><em>Bear Lake Senior Center--where friendships are made, laughter is heard,<br>and memories created.</em></strong></p><br>
+        </div>
+
+      <div class="mySlides">
+        <img src="images/newsign.jpg" alt="new sign" style="width:100%;max-width:600px"><br><br>
+        <p class="author"><strong>A huge thank you to Craig Culver, Kevin Wells, and the City of Montpelier,<br>for making and hanging our new sign on Washington Street!</strong></p>
+      </div>
+
+      <div class="mySlides">
+        <img src="images/thankyou.jpg" alt="thank you" style="width:100%;max-width:600px"><br><br>
+        <p class="author"><strong>To all our donors and volunteers...</strong></p>
+      </div>
+
+      <div class="mySlides">
+        <img src="images/football.jpg" alt="championship football" style="width:100%;max-width:600px"><br><br>
+        <p class="author"><p class="author"><strong>Make a bid and you could be the proud owner of this signed 2022 BLHS Championship football!</strong></p>
+      </div>
+
+      <div class="mySlides">
+        <img src="images/valentinesgoodies.jpg" alt="Valentine's goodies" style="width:100%;max-width:600px">
+      </div>
+      
+      <div class="mySlides">
+        <p><strong><span style="text-decoration: underline;"">Raffle Ticket Fundraiser:</span> Win a Henry Golden Boy .22 Lever-Action Rifle! <br>Tickets $5.00 each; Buy 5 tickets, get the 6th FREE.<br>Winner will be selected on June 9, 2023.</strong></p>
+        <p class="author"><strong>Tickets may be purchased at the Center or call (208) 847-3141 for more info.</strong></p>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      </div>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>      
+    </section>
+
+    <section class="contact w3-padding-large w3-container" id="contact">
+      <div class="content container w3-round-large">
+        <div class="w3-medium" style="text-align: center;">
+        <h2 style="text-align: center;">- Contact Us -</h2>
+        <p class="resources">
+          <i class="fa fa-address-card"></i><span style="margin-left:10px;"><a href="https://goo.gl/maps/iQeQvE1m2Feziv6h9" target="_blank">115 South 4th Street, Montpelier, ID 83254</a></span><br>
+          <i class="fa fa-envelope"></i><span style="margin-left:10px;"><a href="mailto:seniorcenterbearlake@gmail.com">seniorcenterbearlake@gmail.com</a></span><br>
+          <i class="fa fa-phone-square"></i><span style="margin-left:10px;"><a href="tel:208-847-3141">208-847-3141</span></a><br>
+          <i class="fa fa-facebook-square"></i><span style="margin-left:10px;"><a href="https://www.facebook.com/Bear-Lake-SeniorCommunity-Center-426418051294516" target="_blank" style="text-decoration: none;">- Follow us!</a></span><br>
+          <i class="fa fa-female"></i><span style="margin-left:10px;">Site Manager: Connie Wright</span><br><br>
+        </p>
+        <hr>
+        <h3 style="text-align: center;">- Resources -</h3>
+          <p class="resources">
+            <a href="https://www.bearlakecounty.info/" target="_blank">Bear Lake County</a><br>
+            <a href="https://www.caring.com/caregivers/crisis-guide-for-alzheimers-dementia-caregivers/" target="_blank">Dementia Crisis Guide</a><br>
+            <a href="https://www.medicareplans.com/what-is-medicare/" target="_blank">Medicare</a><br>
+            <a href="images/febnewsletter2023.pdf" target="_blank">Monthly Newsletter</a><br>
+            <a href="https://www.ssa.gov/" target="_blank">Social Security</a><br>
+            <a href="images/helpfulinfo.pdf" target="_blank">More Helpful Numbers</a><br>
+          </p><br><br>
+      </div>
+      </div>
+    </section>
+
+    <section class="w3-container footer">
+      <p class="w3-center logo">&#169; 2023 - Bear Lake Senior Center - All rights reserved<br>Designed by w3.css. Developed by <a href="mailto:kyeolee06@gmail.com">KYL</a>.</p>
+    </section>
+
+  <script async>
+      const backToTop = document.getElementById("back-to-top");
+
+      function toggleMobileNavigation() {
+        const mobileNavigation = document.getElementById("mobile-sidenav");
+        mobileNavigation.classList.toggle('mobile-links-active');
+      }
+
+      function goToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      function scroll() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) backToTop.style.display = "block";
+        else backToTop.style.display = "none";
+      }
+
+      window.onscroll = function() {scroll()};
+  </script>
+  <script async>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+  </script>
+  </body>
+</html>
